@@ -3,6 +3,13 @@
 # pf-elements
 A Polymer 2.0 based collection of reusable web components [![Join the chat at https://gitter.im/pf-elements/Lobby](https://badges.gitter.im/pf-elements/Lobby.svg)](https://gitter.im/pf-elements/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+# pf-calendar-events-data
+
+| Element Name | Latest Version (Bower) | Npm version  | Build Status |
+|--------------|------------------------|--------------|--------------|
+| [pf-calendar-events-data](https://github.com/PFElements/pf-calendar-events-data) | [![GitHub version](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data.svg)](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data) | [![npm version](https://badge.fury.io/js/pf-calendar-events-data.svg)](https://www.npmjs.com/package/pf-calendar-events-data) |[![Build Status](https://travis-ci.org/PFElements/pf-calendar-events-data.svg?branch=master)](https://travis-ci.org/PFElements/pf-calendar-events-data) | 
+
+
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 ## Demo
