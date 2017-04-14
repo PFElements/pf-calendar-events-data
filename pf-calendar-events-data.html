@@ -19,23 +19,14 @@
 
     <firebase-query
             id="query"
-
             app-name="[[databasename]]"
             path="[[databasepath]]"
             order-By-Child="[[filterattr]]"
             equal-To="[[filtervalue]]"
+            data="{{data}}">
 
-            data="{{PFEvents}}">
-            <app-indexeddb-mirror
-                    session="11"
-              key="PFEvents"
-              data="{{PFEvents}}"
-              persisted-data="{{eventsData}}">
-
-      </app-indexeddb-mirror>
 
     </firebase-query>
-
   </template>
 
   <script>
@@ -43,10 +34,14 @@
       static get is() { return 'pf-calendar-events-data'; }
       static get properties() {
         return {
-          eventsData: {
-            notify: true,
-
-            type: Object
+          data:{
+            type:Object,
+            observer: 'dataChanged',
+            notify:true
+          },
+          PFResults:{
+            type:Object,
+            notify:true
           },
           databasename: {
             type:String,
@@ -69,9 +64,14 @@
           }
         };
       }
+      dataChanged (newData, oldData) {
+        var d=newData
+        // do something when the query returns values
+      }
+
       connectedCallback() {
 
-       // query="{ "orderByChild":"Authorized User", "equalTo":"John Doe"}"
+        // query="{ "orderByChild":"Authorized User", "equalTo":"John Doe"}"
         super.connectedCallback();
 
 
