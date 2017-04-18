@@ -19,7 +19,7 @@ A Polymer 2.0 based collection of reusable web components [![Join the chat at ht
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-## Example
+# Example
 <!---
 ```
 <custom-element-demo>
@@ -46,7 +46,6 @@ See the list of elements, demos, and documentation by browsing this collection o
 
 ### [Take me to webcomponents.org ›](https://www.webcomponents.org/element/PFElements/pf-calendar-events-data)
 
----
 
 
  <pf-calendar-events
@@ -127,6 +126,12 @@ Comments, questions, suggestions, issues, and pull requests are all welcome.
 
 Joing us at [![Join the chat at https://gitter.im/pf-elements/Lobby](https://badges.gitter.im/pf-elements/Lobby.svg)](https://gitter.im/pf-elements/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+### Get in touch with the team
+
+Joing us at [![Join the chat at https://gitter.im/pf-elements/Lobby](https://badges.gitter.im/pf-elements/Lobby.svg)](https://gitter.im/pf-elements/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+- [Twitter](<a href="https://twitter.com/polymerjs" class="twitter-follow-button" data-show-count="false">Follow @polymerjs</a>)
+- [Facebook] (https://www.facebook.com/polymerjs)
 
 ### Some ways to help:
 
