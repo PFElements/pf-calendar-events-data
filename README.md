@@ -19,19 +19,6 @@ A Polymer 2.0 based collection of reusable web components [![Join the chat at ht
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-# Example
-<!---
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="pf-calendar-events.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
-```html
 
 # PF Calendar Events
 
@@ -46,6 +33,21 @@ See the list of elements, demos, and documentation by browsing this collection o
 
 ### [Take me to webcomponents.org ›](https://www.webcomponents.org/element/PFElements/pf-calendar-events-data)
 
+
+
+# Example
+<!---
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="pf-calendar-events.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
 
 
  <pf-calendar-events
@@ -122,9 +124,6 @@ Your application is already set up to be tested via [web-component-tester](https
 
 Comments, questions, suggestions, issues, and pull requests are all welcome.
 
-## Questions/Comments
-
-Joing us at [![Join the chat at https://gitter.im/pf-elements/Lobby](https://badges.gitter.im/pf-elements/Lobby.svg)](https://gitter.im/pf-elements/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Get in touch with the team
 
