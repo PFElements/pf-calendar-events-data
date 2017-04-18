@@ -5,6 +5,9 @@ A Polymer 2.0 based collection of reusable web components [![Join the chat at ht
 
 # pf-calendar-events-data
 
+An Advanced Polymer 2.0 based custom elements to get the calendar events, appointments, meetings data from Firebase. To be used in conjunction with pf-calendar-events element
+
+
 | Element Name | Latest Version (Bower) | Npm version  | Build Status |
 |--------------|------------------------|--------------|--------------|
 | [pf-calendar-events-data](https://github.com/PFElements/pf-calendar-events-data) | [![GitHub version](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data.svg)](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data) | [![npm version](https://badge.fury.io/js/pf-calendar-events-data.svg)](https://www.npmjs.com/package/pf-calendar-events-data) |[![Build Status](https://travis-ci.org/PFElements/pf-calendar-events-data.svg?branch=master)](https://travis-ci.org/PFElements/pf-calendar-events-data) | 
@@ -19,10 +22,6 @@ A Polymer 2.0 based collection of reusable web components [![Join the chat at ht
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-
-# PF Calendar Events
-
-An Advanced Polymer 2.0 based custom elements to get the calendar events, appointments, meetings data from Firebase. To be used in conjunction with pf-calendar-events element
 
 
 [pf-calendar-events](https://github.com/PFElements/pf-calendar-events-data) [![GitHub version](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data.svg)](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data)  [![Build Status](https://travis-ci.org/PFElements/ppf-calendar-events-data.svg?branch=master)](https://travis-ci.org/PFElements/pf-calendar-events-data) 
