@@ -24,8 +24,6 @@ An Advanced Polymer 2.0 based custom elements to get the calendar events, appoin
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
 
 
-[pf-calendar-events](https://github.com/PFElements/pf-calendar-events-data) [![GitHub version](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data.svg)](https://badge.fury.io/gh/PFElements%2Fpf-calendar-events-data)  [![Build Status](https://travis-ci.org/PFElements/ppf-calendar-events-data.svg?branch=master)](https://travis-ci.org/PFElements/pf-calendar-events-data) 
-
 ## Learn more
 
 See the list of elements, demos, and documentation by browsing this collection on webcomponents.org:
