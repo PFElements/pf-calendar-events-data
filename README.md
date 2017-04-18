@@ -33,57 +33,24 @@ See the list of elements, demos, and documentation by browsing this collection o
 
 
 # Example
-<!---
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="pf-calendar-events.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
+
 ```html
 
-
- <pf-calendar-events
-                  data='[
-                          { "eventName": "Lunch Meeting w/ Mark", "calendar": "Work", "color": "orange","date":"1491322091394" },
-                          { "eventName": "WI vs Pak", "calendar": "sport", "color": "blue","date":"1499185140000" },
-                          { "eventName": "WI vs Pak", "calendar": "sport", "color": "blue","date":"1491581940000" },
-                          { "eventName": "Public Holiday", "calendar": "holiday", "color": "green","date":"1494173940000" }]'
-          >
-
-          </pf-calendar-events>
+     <firebase-app
+                  name="pf-calendar-firebase"
+                  api-key="AIzaSyBOML3Qc_rtqDeVAr2ous6Z8-E1FDqH4CI"
+                  auth-domain="pf-calendar-firebase.firebaseapp.com"
+                  database-url="https://pf-calendar-firebase.firebaseio.com">
+          </firebase-app>
+          <pf-calendar-events-data
+                  databasename="pf-calendar-firebase"
+                  databasepath="testdata"
+                  eventsData="{{results}}"
+                  filterAttr="color"
+                  filterValue="green"></pf-calendar-events-data>
 ```
-Custom property                         | Description                             | Default
-----------------------------------------|-----------------------------------------|-------------------------
-`--pf-calendar-bg-color`                |  Calendar background                    | #4A4A4A
-`--pf-calendar-width`                   |  Calendar Width                         | 420px
-`--pf-calendar-height`                  |  Calendar Height                        | 570px
-`--pf-calendar-header-background`       |  Calendar Header Background             | rgba(66, 66, 66, 1)
-`--pf-calendar-header-height`           |  Calendar Header height                 | 50px
-`--pf-calendar-month-title-font-size`   |   Font size of  month on header         | 20px
-`--pf-calendar-month-title-line-height` |  Calendar Header title line Height      | rgba(66, 66, 66, 1)
-`--pf-calendar-header-left-arrow-color` |  Previous Month arrow color             | rgba(160, 159, 160, 1)
-`--pf-calendar-header-right-arrow-color`|  Next Month arrow color                 | rgba(160, 159, 160, 1)
-`--pf-calendar-month-title-color`       |  Month Title color                      | #000
-`--pf-calendar-week-bg`                 |  Background color of week               | #4A4A4A
-`--pf-calendar-day-bg`                  |  Day Background                         | #4A4A4A
-`--pf-calendar-day-color`               |  color of date                          | #000
-`--pf-calendar-other-day-color`         |  color of previous and next month date  | rgba(255, 255, 255, .3)
-`--pf-calendar-today-color`             |  Current date Color                     | rgba(156` 202, 235, 1)
-`--pf-calendar-day-name-color`          |  Name of Day color e.g(MON,TUE,WED)     | rgba(255` 255, 255, .5)
-`--pf-calendar-event-detail-bg`         |  Event box background                   | rgba(164, 164, 164, 1)
-`--pf-calendar-event-color`              |  color of label "Event"                | #000
-`--pf-calendar-addevent-button-bg-color'|  Add Event Button color                 | rgba(164, 164, 164, 1)
-`--pf-calendar-addevent-button-text-color`| Add Event text color                  | #fff
-`--pf-calendar-addevent-button-hover-color`|  Add event button hover color        | rgba(170, 170, 170, 1)
-`--pf-calendar-addbutton-disply`        |  to hide button set "none"              |inline-block
-`--pf-calendar-deletebutton-disply`     |  to hide button set "none"              |inline
-`--pf-calendar-editbutton-disply`       |  to hide button set "none"              |inline
-`--pf-calendar-legend-bg`               |  Background color of legend bar         | rgba(60, 60, 60, 1)
+-> Replace firebase-app with yours 
+
 
 
 ## Viewing Your Application
