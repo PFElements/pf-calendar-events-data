@@ -24,8 +24,6 @@
             order-By-Child="[[filterattr]]"
             equal-To="[[filtervalue]]"
             data="{{data}}">
-
-
     </firebase-query>
   </template>
 
@@ -68,7 +66,18 @@
         var d=newData
         // do something when the query returns values
       }
+        addEvent(newEve){
+            this.$.query.ref.push().set(newEve);
 
+        }
+        updateEvent(key,event){
+            this.$.query.ref.child(key).set(event);
+
+
+        }
+        deleteEvent(key){
+            this.$.query.ref.child(key).remove();
+        }
       connectedCallback() {
 
         // query="{ "orderByChild":"Authorized User", "equalTo":"John Doe"}"
