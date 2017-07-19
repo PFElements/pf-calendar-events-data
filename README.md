@@ -30,6 +30,16 @@ See the list of elements, demos, and documentation by browsing this collection o
 
 ### [Take me to webcomponents.org ›](https://www.webcomponents.org/element/PFElements/pf-calendar-events-data)
 
+### Methods
+The following methods are available for crude events operation:
+
+Methods                                 | Description                           
+----------------------------------------|--------------------------
+`addEvent(event)`                       |  Take event object and add as a into firebase 
+`updateEvent(key,event)`                |  Take firebase data ref key and updated event object , update the given ref key node                          
+`deleteEvent(key)`                      |  Take record ref key and delete that event                    
+            
+
 
 
 # Example
@@ -50,6 +60,7 @@ See the list of elements, demos, and documentation by browsing this collection o
                   filterValue="green"></pf-calendar-events-data>
 ```
 -> Replace firebase-app with yours 
+
 
 
 
