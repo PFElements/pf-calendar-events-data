@@ -1,6 +1,6 @@
 {
   "name": "pf-calendar-events-data",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "A Polymer 2.0 custom element to get the events from Firebase. To be used in conjunction with pf-calendar-events element",
   "main": "pf-calendar-events-data.html",
   "repository": "PFElements/pf-calendar-events-data",
@@ -9,7 +9,7 @@
     "Polymer 2.0",
     "page",
     "calendar",
-    "appoointment",
+    "appointment",
     "schedule",
     "event",
     "meetings",
