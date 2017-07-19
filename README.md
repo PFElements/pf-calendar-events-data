@@ -35,7 +35,7 @@ The following methods are available for crude events operation:
 
 Methods                                 | Description                           
 ----------------------------------------|--------------------------
-`addEvent(event)`                       |  Take event object and add as a into firebase 
+`addEvent(event)`                       |  Take event object and add as a new Event, meeting or reminder into firebase 
 `updateEvent(key,event)`                |  Take firebase data ref key and updated event object , update the given ref key node                          
 `deleteEvent(key)`                      |  Take record ref key and delete that event                    
             
