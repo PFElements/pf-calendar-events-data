@@ -5,7 +5,11 @@ A Polymer 2.0 based collection of reusable web components [![Join the chat at ht
 
 # pf-calendar-events-data
 
-An Advanced Polymer 2.0 based custom elements to get the calendar events, appointments, meetings data from Firebase. To be used in conjunction with pf-calendar-events element
+An Advanced Polymer 2.0 based custom elements to get the calendar events, appointments, meetings data from Firebase. To be used in conjunction with pf-calendar-events element.
+
+Firebase based headless Polymer 2.0 Element. This element has no UI, and is used for CRUD operations for calendar events. It exposes the API for Add/Update/Delete events and manages that operations on Firebase.
+
+Use this element in conjunction with other pf-calendar UI element or make your own front-end element and use this element to take care of backend firebase integration.
 
 
 | Element Name | Latest Version (Bower) | Npm version  | Build Status |
